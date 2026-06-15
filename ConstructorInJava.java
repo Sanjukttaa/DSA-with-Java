@@ -12,7 +12,7 @@ public class ConstructorInJava{
         System.out.println(t);
     }
     public static void main(String[] args) {
-        ConstructorInJava c1=new ConstructorInJava();
+        ConstructorInJava c1=new ConstructorInJava(7,9);
         ConstructorInJava c2=new ConstructorInJava(5, 8);
         c1.show();
         c2.show();
