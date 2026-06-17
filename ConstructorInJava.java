@@ -3,7 +3,7 @@ public class ConstructorInJava{
     ConstructorInJava(){  // default
         System.out.println("It is default contructor..!");
     }
-    ConstructorInJava(int a, int b){ // parameter
+    ConstructorInJava(int a, int b){ 
         this.a=a;
         t=b;
     }
